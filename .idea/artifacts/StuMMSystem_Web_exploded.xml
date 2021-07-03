@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StuMMSystem:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StuMMSystem_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StuMMSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StuMMSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jstl.jar" module-name="StuMMSystem" />
+          <element id="library" level="module" name="standard.jar" module-name="StuMMSystem" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.47.jar" module-name="StuMMSystem" />
+          <element id="library" level="module" name="junit4" module-name="StuMMSystem" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
